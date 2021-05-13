@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/giphy.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <input type="text" placeholder="find your gif" id="search">
+             <input type="text" placeholder="get limit" id="limits">
+             <select id="selectlang" >
+                <option value="">select lang</option>
+                <option value="ru">russian</option>
+                <option value="eng">english</option>
+             </select>
+           <button id="button">найти</button>
+        </header>
+        <main id="content"></main>
+        <footer>
+            <h2 class="giffind">need a gif ? <br> take it here</h2>
+             <button class="baton" id="btn">eng/rus</button>
+        </footer>
+    </div>
+    
+</body>
+<!-- <script src="./scripts/http.js"></script> -->
+<script src="./scripts/gyphy.js"></script>
+</html>
